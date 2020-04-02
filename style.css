@@ -1,0 +1,197 @@
+.layout.room .chat .messages>div>ul>li.alert p.content, .layout.room .chat .messages>div>ul>li.played-track p.content, .layout.room .chat .messages>div>ul>li.step-down p.content, .layout.room .chat .messages>div>ul>li.step-up p.content {
+    color: #fff;
+}
+
+.layout.room .container>div:nth-child(2) .chat-container {
+    height: calc(100% - 280px);
+}
+
+.layout.room .container>div:nth-child(3) .tabs {
+    height: calc(100% - 100px);
+}
+
+.layout.room .queue .queue-track.even .actions>li, .layout.room .track-history .tracks>div>div>div>li.even .track-history-track .add, .layout.room .track-history .tracks>div>div>div>li.even .track-history-track .star, .layout.room .track-history .tracks>div>div>div>li.even .track-history-track .play {
+    background-color: #444;
+}
+
+.layout.room .queue .tabs>.content div.queue-tab div.actions>div {
+    background: #333;
+}
+
+.layout.room .queue .tabs>.content>li li.queue-track.even .track .copy, .layout.room .track-history .tracks>div>div>div>li.even .track-history-track {
+    background-color: #444;
+}
+
+.layout.room .queue .tabs>.content>li li.queue-track.on-deck {
+    background: #333;
+}
+
+.layout.room div.users-tab .scroller {
+    height: 100%;
+}
+
+.layout.room div.users-tab .section-heading {
+    display: none;
+}
+
+.layout.room div.users-tab .users-list li.roomie {
+    overflow: hidden;
+}
+
+.layout.room div.users-tab .users-list li.roomie .image-wrapper.current-dj .img:before {
+    background: #9ba7f0;
+    box-shadow: 40px 1px 10px 1000px #9ba7f0;
+    content: "";
+    height: 100%;
+    left: 40%;
+    opacity: .1;
+    position: absolute;
+    top: 0%;
+    width: 60%;
+    z-index: 100;
+}
+
+.layout.room div.users-tab .users-list li.roomie .img.thumbs-down:after {
+    background: #f62459;
+    box-shadow: 35px 1px 10px 1000px #f62459;
+    content: " ";
+    left: 50%;
+    opacity: .1;
+    top: 0;
+    width: 100%
+    position: absolute;
+    z-index: -1;
+}
+
+.layout.room div.users-tab .users-list li.roomie .img.thumbs-down:before {
+    font-size: 24px;
+}
+
+.layout.room div.users-tab .users-list li.roomie .img.thumbs-up:after {
+    background: #87d37c;
+    box-shadow: 35px 1px 1px 1000px #87d37c;
+    content: " ";
+    left: 50%;
+    line-height: 0
+    width: 100%;
+    opacity: .1;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+}
+
+.layout.room div.users-tab .users-list li.roomie .img.thumbs-up:before {
+    font-size: 24px;
+}
+
+.message.joined {
+    background: rgb(238,130,238, .2)
+;
+}
+
+.message.step-down {
+    background: RGB(234,43,91,.2);
+    color: #fff;
+}
+
+.message.step-up {
+    background: RGB(95,130,247,.2);
+}
+
+.meter {
+    height: 100px;
+}
+
+.meter .frame .circle, .meter .frame .inside-double {
+    display: none;
+}
+
+.meter .thumbs button {
+    height: 75px;
+    width: 45%;
+}
+
+.meter .thumbs-down span:before, .meter .thumbs-up span:before {
+    font-size: 36px;
+}
+
+.music .actions+div .track {
+    height: 125px;
+}
+
+.music .actions+div .track .img {
+    height: 125px;
+    max-width: 125px;
+    width: 125px;
+}
+
+.music .actions+div .track .img-wrapper {
+    width: 125px;
+}
+
+.music .actions+div .track>.copy {
+    left: 125px;
+    width: calc(100% - 187px - 57px - 25px);
+}
+
+.music .actions+div .track>.copy>div {
+    top: 40%;
+}
+
+.music .top>.actions {
+    bottom: 5px;
+    right: 5px;
+    top: unset;
+    width: unset;
+}
+
+.music .top>.actions button.step-down, .music .top>.actions button {
+    height: 40px;
+    padding: 5px 15px;
+}
+
+.music .top>.actions button.step-down, .music .top>.actions button.step-down span, .music .top>.actions button.step-up, .music .top>.actions button.step-up span {
+    font-size: 14px;
+}
+
+.music .top>.actions>span {
+    display: inline-block;
+}
+
+.music .top>.actions>span:nth-child(3) button {
+    background: #6a778b;
+    width: auto;
+}
+
+.music .top>.actions>span:nth-child(3)>span>* {
+    border-radius: 4px;
+}
+
+.music .top>.actions>span:nth-child(3)>span>:first-child, .music .top>.actions>span:nth-child(3)>span>:last-child {
+    display: none;
+}
+
+.queue-track.even .preview {
+    background-color: #444;
+}
+
+/*.layout.room .dj-queue li.dj-user:first-child>a div.image-wrapper {
+    width: 40px;
+    height: 40px;
+}
+
+.layout.room .dj-queue li.dj-user:first-child .img {
+    width: 65px;
+    height: 65px;
+    top: 1px;
+    left: 1px;
+}
+
+.layout.room .dj-queue li.dj-user:first-child {
+    margin-left: 10px;
+}
+
+.layout.room .dj-queue {
+    height: 100px;
+}*/
+
