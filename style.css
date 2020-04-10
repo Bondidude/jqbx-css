@@ -140,7 +140,7 @@
 
 .music .top>.actions {
     bottom: 5px;
-    right: 5px;
+    right: 25px;
     top: unset;
     width: unset;
 }
@@ -167,8 +167,22 @@
     border-radius: 4px;
 }
 
-.music .top>.actions>span:nth-child(3)>span>:first-child, .music .top>.actions>span:nth-child(3)>span>:last-child {
+.music .top>.actions>span:nth-child(3)>span>:first-child {
     display: none;
+}
+
+.music .top>.actions .enable-mute, .music .top>.actions .disable-mute {
+    margin-left: 5px;
+    background: none;
+}
+
+.music .top>.actions .enable-mute:before, .music .top>.actions .disable-mute:before {
+     padding: 0 15px;
+     background: none;
+}
+
+.music .top>.actions .volume-control {
+    background: none;   
 }
 
 .queue-track.even .preview {
